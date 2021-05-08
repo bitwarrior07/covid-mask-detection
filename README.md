@@ -11,3 +11,8 @@ Covid Mask Detection FROST HACK 2021
 8.  Video Demo (Add link to the YouTube video that you created demoing all the functions of your Project) - https://youtu.be/PFu9c2itJOw
 9.  Pictures (Upload a zipfile containing no more than 10 screenshots describing your project.) - TBD
 
+
+Steps to run:
+1. cd covid-mask-detection
+2. pip install -r requiremnts.txt
+3. python detect_mask_video.py
