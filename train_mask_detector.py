@@ -1,5 +1,5 @@
 # USAGE
-# python train_mask_detector.py --dataset dataset
+# python train_mask_detector.py -d dataset -m mask_detector.model -p plot.png
 
 # import the necessary packages
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -23,6 +23,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import argparse
 import os
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
